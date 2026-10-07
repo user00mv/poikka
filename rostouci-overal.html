@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="cs"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rostoucí overal s oušky – POIKKA</title>
+<meta name="description" content="Teplákový overal s kapucí, oušky a dlouhými manžetami, které se ohrnou a zase rozloží.">
+<meta property="og:title" content="Rostoucí overal s oušky – POIKKA"><meta property="og:description" content="Teplákový overal s kapucí, oušky a dlouhými manžetami, které se ohrnou a zase rozloží."><meta property="og:image" content="assets/fotky/hero-main.webp">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#FAF7F2">
+<link rel="icon" type="image/png" href="assets/logo/poikka-favicon.png">
+<link rel="preload" href="assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/poikka.css">
+<style>html,body{margin:0;background:#FAF7F2}</style>
+</head><body>
+<svg width="0" height="0" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true">
+  <defs>
+    <symbol id="pk-i-menu" viewBox="0 0 24 24"><path d="M4 9h16M4 15h11"/></symbol>
+    <symbol id="pk-i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="pk-i-bag" viewBox="0 0 24 24"><path d="M5.5 8.5h13l-1.1 11.2a1.5 1.5 0 0 1-1.5 1.3H8.1a1.5 1.5 0 0 1-1.5-1.3L5.5 8.5z"/><path d="M9 10.5V7a3 3 0 0 1 6 0v3.5"/></symbol>
+    <symbol id="pk-i-user" viewBox="0 0 24 24"><circle cx="12" cy="8.5" r="3.6"/><path d="M4.8 20c1.3-3.6 4-5.2 7.2-5.2s5.9 1.6 7.2 5.2"/></symbol>
+    <symbol id="pk-i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.3"/><path d="M20 20l-4.4-4.4"/></symbol>
+    <symbol id="pk-i-left" viewBox="0 0 24 24"><path d="M14.5 6l-6 6 6 6"/></symbol>
+    <symbol id="pk-i-right" viewBox="0 0 24 24"><path d="M9.5 6l6 6-6 6"/></symbol>
+    <symbol id="pk-i-plus" viewBox="0 0 24 24"><path d="M12 6v12M6 12h12"/></symbol>
+    <symbol id="pk-i-minus" viewBox="0 0 24 24"><path d="M6 12h12"/></symbol>
+    <symbol id="pk-i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.4 4.4L19 7.3"/></symbol>
+    <symbol id="pk-i-star" viewBox="0 0 24 24"><path d="M12 3.2l2.6 5.6 6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6-4.5-4.2 6.1-.7z"/></symbol>
+    <symbol id="pk-i-needle" viewBox="0 0 24 24"><path d="M4 20L17.2 6.8"/><ellipse cx="18.4" cy="5.6" rx="1.9" ry="1.1" transform="rotate(-45 18.4 5.6)"/><path d="M18.6 5.5c3 2.6.4 6.2-3 6.6-2.9.4-5.4 2.3-4.7 5.6"/></symbol>
+    <symbol id="pk-i-grow" viewBox="0 0 24 24"><path d="M6 3v18M6 6h3M6 10h2M6 14h3M6 18h2"/><path d="M16.5 20V5M13 8.5l3.5-3.5L20 8.5"/></symbol>
+    <symbol id="pk-i-leaf" viewBox="0 0 24 24"><path d="M5 19c0-8.3 5.4-14 14.5-14 0 9.1-5.7 14.5-14 14.5z"/><path d="M5 19.5l8.5-8.5"/></symbol>
+    <symbol id="pk-i-truck" viewBox="0 0 24 24"><path d="M2.8 6.5h11v9.5h-11zM13.8 10h4.1l3.3 3.3V16h-7.4"/><circle cx="7" cy="17.6" r="1.9"/><circle cx="17.2" cy="17.6" r="1.9"/></symbol>
+    <symbol id="pk-i-return" viewBox="0 0 24 24"><path d="M4 4.5v5h5"/><path d="M4.6 9.3A8 8 0 1 1 5.5 16.8"/></symbol>
+    <symbol id="pk-i-snap" viewBox="0 0 24 24"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2.4"/></symbol>
+    <symbol id="pk-i-cuff" viewBox="0 0 24 24"><path d="M7 3.5h10v6.5H7z"/><path d="M6 10h12v5H6zM6.6 15h10.8v5.5H6.6z"/><path d="M9 12.5h6"/></symbol>
+    <symbol id="pk-i-wash" viewBox="0 0 24 24"><path d="M3 7.5h18l-2.2 11.2a1.6 1.6 0 0 1-1.6 1.3H6.8a1.6 1.6 0 0 1-1.6-1.3L3 7.5z"/><path d="M3.4 9.6c2 1.6 3.8 1.6 5.7 0s3.8-1.6 5.8 0 3.8 1.6 5.7 0"/><path d="M10.3 13.8h3.4"/></symbol>
+    <symbol id="pk-i-gift" viewBox="0 0 24 24"><path d="M4.5 11h15v9.5h-15zM3.5 7.5h17V11h-17zM12 7.5v13"/><path d="M12 7.5C10.4 4 6.5 4 6.8 6.3 7 7.4 9 7.5 12 7.5zM12 7.5c1.6-3.5 5.5-3.5 5.2-1.2-.2 1.1-2.2 1.2-5.2 1.2z"/></symbol>
+    <symbol id="pk-i-zip" viewBox="0 0 24 24"><path d="M12 2.5v11.5M9.8 5h4.4M9.8 8h4.4M9.8 11h4.4"/><rect x="10" y="14" width="4" height="6.5" rx="2"/></symbol>
+    <symbol id="pk-i-hood" viewBox="0 0 24 24"><path d="M12 2.8c3.4.4 7 4.6 7 9.3 0 4.6-3 7.6-7 7.6s-7-3-7-7.6c0-4.7 3.6-8.9 7-9.3z"/><ellipse cx="12" cy="12.8" rx="3.9" ry="3.7"/></symbol>
+    <symbol id="pk-i-camera" viewBox="0 0 24 24"><path d="M4 8h3.6L9.2 6h5.6l1.6 2H20v11H4z"/><circle cx="12" cy="13.3" r="3.3"/></symbol>
+    <symbol id="pk-i-lock" viewBox="0 0 24 24"><rect x="5.5" y="10.5" width="13" height="9.5" rx="2"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"/></symbol>
+    <symbol id="pk-i-box" viewBox="0 0 24 24"><path d="M4 7.8l8-4 8 4v8.6l-8 4-8-4z"/><path d="M4 7.8l8 4 8-4M12 11.8v8.6"/></symbol>
+    <symbol id="pk-i-ruler" viewBox="0 0 24 24"><path d="M3.5 15.5L15.5 3.5l5 5-12 12z"/><path d="M7.5 11.5l1.8 1.8M10.5 8.5l1.8 1.8M13.5 5.5l1.8 1.8"/></symbol>
+    <symbol id="pk-i-heart" viewBox="0 0 24 24"><path d="M12 19.5s-7.5-4.4-7.5-10A4.2 4.2 0 0 1 12 7a4.2 4.2 0 0 1 7.5 2.5c0 5.6-7.5 10-7.5 10z"/></symbol>
+    <symbol id="pk-i-ig" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="5"/><circle cx="12" cy="12" r="3.7"/><circle cx="17" cy="7" r=".6" fill="currentColor"/></symbol>
+    <symbol id="pk-i-fb" viewBox="0 0 24 24"><path d="M14.5 8.5H16V5.6h-2c-2.3 0-3.5 1.4-3.5 3.6v1.7H8.5v2.9h2V20h3v-6.2h2.1l.4-2.9h-2.5V9.6c0-.7.3-1.1 1-1.1z"/></symbol>
+    <symbol id="pk-i-touch" viewBox="0 0 24 24"><path d="M9 11V5.5a1.5 1.5 0 0 1 3 0V11m0-1.5a1.5 1.5 0 0 1 3 0V12m0-1a1.5 1.5 0 0 1 3 0v3.5c0 3.6-2.4 6-5.6 6-2.4 0-3.6-1-5-3l-2-3a1.5 1.5 0 0 1 2.4-1.8L9 14"/></symbol>
+    <symbol id="pk-i-flower" viewBox="0 0 24 24"><g fill="currentColor"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="4.6" r="3.2"/><circle cx="17.2" cy="6.8" r="3.2"/><circle cx="19.4" cy="12" r="3.2"/><circle cx="17.2" cy="17.2" r="3.2"/><circle cx="12" cy="19.4" r="3.2"/><circle cx="6.8" cy="17.2" r="3.2"/><circle cx="4.6" cy="12" r="3.2"/><circle cx="6.8" cy="6.8" r="3.2"/></g></symbol>
+    <symbol id="pk-i-overal" viewBox="0 0 40 58"><path fill="currentColor" stroke="#2E2721" stroke-width="1.8" stroke-linejoin="round" d="M20 2.5c4.6.4 9.6 5.2 9.6 11 0 3-1.2 5.3-3 6.7l3.4 1.6 7 11.6-4.6 2.9-4.4-6.6V40l1.1 15.5H20.9L20 44l-.9 11.5h-8.2L12 40v-10.3l-4.4 6.6L3 33.4l7-11.6 3.4-1.6c-1.8-1.4-3-3.7-3-6.7 0-5.8 5-10.6 9.6-11z"/><ellipse cx="20" cy="13.4" rx="5.2" ry="5" fill="#FAF7F2" stroke="#2E2721" stroke-width="1.6"/></symbol>
+  </defs>
+</svg>
+
+<!-- ===== POIKKA: HLAVIČKA (oznámení + menu) ===== -->
+<div class="pk">
+  <div class="pk-headwrap">
+    <div class="pk-announce" aria-label="Novinky">
+      <div class="pk-announce-track">
+        <div class="pk-announce-set">
+          <span>Ušito v Česku<i class="pk-wdot" aria-hidden="true"></i></span>
+          <span>Doprava zdarma od 2 500 Kč<i class="pk-wdot pk-wdot--sand" aria-hidden="true"></i></span>
+          <span>Jeden overal na celý rok<i class="pk-wdot pk-wdot--sage" aria-hidden="true"></i></span>
+          <span>Odesíláme do 2 pracovních dnů<i class="pk-wdot" aria-hidden="true"></i></span>
+          </div>
+        <div class="pk-announce-set" aria-hidden="true">
+          <span>Ušito v Česku<i class="pk-wdot" aria-hidden="true"></i></span>
+          <span>Doprava zdarma od 2 500 Kč<i class="pk-wdot pk-wdot--sand" aria-hidden="true"></i></span>
+          <span>Jeden overal na celý rok<i class="pk-wdot pk-wdot--sage" aria-hidden="true"></i></span>
+          <span>Odesíláme do 2 pracovních dnů<i class="pk-wdot" aria-hidden="true"></i></span>
+          </div>
+      </div>
+    </div>
+    <header class="pk-header">
+      <div class="pk-wrap pk-header-in">
+        <nav class="pk-nav" aria-label="Hlavní menu">
+          <a href="rostouci-overal.html">Rostoucí overal</a>
+          <a href="novorozenecky-set.html">Novorozenecký set</a>
+          <a href="index.html#jak-roste">Jak roste</a>
+          <a href="index.html#pribeh">Náš příběh</a>
+        </nav>
+        <button class="pk-iconbtn pk-burger" type="button" aria-label="Otevřít menu" aria-expanded="false" data-menu-open>
+          <svg class="pk-ico"><use href="#pk-i-menu"/></svg>
+        </button>
+        <a class="pk-logo" href="index.html" aria-label="POIKKA – úvodní stránka">
+          <img src="assets/logo/poikka-napis.webp" alt="POIKKA" width="480" height="83">
+        </a>
+        <div class="pk-actions">
+          <a class="pk-iconbtn pk-hide-m" href="info.html#kontakt" aria-label="Můj účet"><svg class="pk-ico"><use href="#pk-i-user"/></svg></a>
+          <a class="pk-iconbtn" href="#" data-open="pk-cart" aria-label="Košík">
+            <svg class="pk-ico"><use href="#pk-i-bag"/></svg>
+            <span class="pk-cartcount">0</span>
+          </a>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div class="pk-head-spacer" aria-hidden="true"></div>
+
+  <div class="pk-mmenu" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="pk-mmenu-top">
+      <img src="assets/logo/poikka-napis.webp" alt="POIKKA">
+      <button class="pk-iconbtn" type="button" aria-label="Zavřít menu" data-menu-close><svg class="pk-ico"><use href="#pk-i-close"/></svg></button>
+    </div>
+    <nav aria-label="Mobilní menu">
+      <a href="rostouci-overal.html">Rostoucí overal</a>
+      <a href="novorozenecky-set.html">Novorozenecký set</a>
+      <a href="index.html#jak-roste">Jak roste</a>
+      <a href="index.html#pribeh">Náš příběh</a>
+      <a href="info.html#kontakt">Můj účet</a>
+    </nav>
+    <div class="pk-mmenu-foot">
+      <img src="assets/logo/poikka-miminko.webp" alt="">
+      <span>Dětské oblečení ušité v Česku.<br>Napište nám: ahoj@poikka.cz</span>
+    </div>
+  </div>
+</div>
+<!-- ===== /HLAVIČKA ===== -->
+<!-- ===== POIKKA: PRODUKTOVÁ STRÁNKA – ROSTOUCÍ OVERAL ===== -->
+<script>
+  /* NASTAVENÍ PRODUKTU – vyplňte podle WooCommerce (Produkty → upravit → ID v URL) */
+  window.POIKKA_PDP = {
+    name: 'Rostoucí overal s oušky',
+    productId: 0,                        // ID variabilního produktu
+    freeShipping: 2500,
+    cartUrl: '#',
+    attrColor: 'attribute_pa_barva',
+    attrSize: 'attribute_pa_velikost',
+    attrExtra: { usi: 'attribute_pa_usi' }, // atribut oušek (zajíček / medvídek)
+    variations: {                        // 'barva|ouska|velikost': ID varianty
+      // 'sedy-melir|zajicek|62-80': 101, ...
+    },
+    bundles: {                           // ceny jsou pracovní – upravte
+      one:    { name: '1 overal',              price: 1890, old: 0,    pcs: 1 },
+      duo:    { name: '2 overaly',             price: 3402, old: 3780, pcs: 2 },
+      bonnet: { name: 'Overal a zaječí čepička', price: 2290, old: 2380, pcs: 1 /*, productId: 0 */ }
+    }
+  };
+</script>
+<div class="pk">
+  <div class="pk-wrap">
+    <nav class="pk-crumbs" aria-label="Drobečková navigace"><a href="index.html">Domů</a><span>/</span><a href="index.html#obchod">Obchod</a><span>/</span><span aria-current="page">Rostoucí overal</span></nav>
+
+    <div class="pk-pdp" data-pdp>
+      <div class="pk-gallery">
+        <div class="pk-gal-badges">
+          <span class="pk-gbadge"><svg class="pk-ico"><use href="#pk-i-grow"/></svg>Roste s dítětem</span>
+          <span class="pk-gbadge"><svg class="pk-ico"><use href="#pk-i-needle"/></svg>Ušito v Česku</span>
+        </div>
+        <div class="pk-gal-track">
+          <figure class="pk-ph" data-tone="oat"><img src="assets/fotky/hero-main.webp" alt="Holčička v šedém rostoucím overalu"></figure>
+          <figure class="pk-ph pk-ph--pack" data-tone="oat"><img src="assets/fotky/ov-pack-b.webp" alt="Rostoucí overal šedý melír, rozložené manžety" loading="lazy"></figure>
+          <figure class="pk-ph" data-tone="oat"><img src="assets/fotky/ov-ears.webp" alt="Detail kapuce s medvědími oušky" loading="lazy"></figure>
+          <figure class="pk-ph" data-tone="oat"><img src="assets/fotky/ov-foot.webp" alt="Ohrnutá manžeta na nožičce" loading="lazy"></figure>
+          <figure class="pk-ph" data-tone="oat"><img src="assets/fotky/ov-beige.webp" alt="Miminko v béžovém overalu s ohrnutými manžetami" loading="lazy"></figure>
+          <figure class="pk-ph" data-tone="oat"><img src="assets/fotky/ov-black.webp" alt="Batole v černém overalu se zaječími oušky" loading="lazy"></figure>
+          <figure class="pk-ph" data-tone="oat"><img src="assets/fotky/life-cotton.webp" alt="Holčička v šedém overalu si hraje" loading="lazy"></figure>
+        </div>
+        <div class="pk-gal-dots" aria-hidden="true"></div>
+      </div>
+
+      <div class="pk-summary">
+        <a class="pk-sum-rating" href="#recenze"><span class="pk-stars"><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg></span>4,9 podle 48 recenzí</a>
+        <h1 class="pk-pdp-title">Rostoucí overal s oušky</h1>
+        <p class="pk-pdp-bio">Teplákový overal s kapucí, oušky a dlouhými žebrovanými manžetami. Dokud je dítě malé, manžety ohrnete. Jak roste, rozložíte je a overal vydrží zhruba rok. Ušitý v Česku.</p>
+
+        <div class="pk-pricebox" aria-live="polite">
+          <span class="pk-price" data-price>1 890 Kč</span>
+          <span class="pk-price-old" data-price-old hidden></span>
+          <span class="pk-price-save" data-price-save hidden></span>
+          <span class="pk-price-note" data-per-month></span>
+        </div>
+
+        <div class="pk-opt">
+          <div class="pk-opt-head"><span><b>Barva:</b> <span data-color-name>Šedý melír</span></span></div>
+          <div class="pk-swatches" role="radiogroup" aria-label="Barva">
+            <button class="pk-swatch" type="button" role="radio" data-value="sedy-melir" data-label="Šedý melír" data-img="assets/fotky/hero-main.webp" data-thumb="assets/fotky/pack-grey-thumb.webp" style="--sw:#BEC0C4" aria-label="Šedý melír"><span></span></button>
+            <button class="pk-swatch" type="button" role="radio" data-value="bezova" data-label="Béžová" data-img="assets/fotky/ov-beige.webp" data-thumb="assets/fotky/ov-beige.webp" style="--sw:#D3C1A9" aria-label="Béžová"><span></span></button>
+            <button class="pk-swatch" type="button" role="radio" data-value="cerna" data-label="Černá" data-img="assets/fotky/ov-black.webp" data-thumb="assets/fotky/ov-black.webp" style="--sw:#2B2A2E" aria-label="Černá"><span></span></button>
+          </div>
+        </div>
+
+        <div class="pk-opt">
+          <div class="pk-opt-head"><span><b>Ouška:</b> <span data-choice-label>Zajíček</span></span></div>
+          <div class="pk-chips" role="radiogroup" aria-label="Ouška" data-choice="usi">
+            <button class="pk-chip" type="button" role="radio" data-value="zajicek" data-label="Zajíček">Zajíček</button>
+            <button class="pk-chip" type="button" role="radio" data-value="medvidek" data-label="Medvídek">Medvídek</button>
+          </div>
+        </div>
+
+        <div class="pk-opt">
+          <div class="pk-opt-head"><b>Velikost</b><button class="pk-opt-link" type="button" data-open="pk-sizes"><svg class="pk-ico" style="width:16px;height:16px"><use href="#pk-i-ruler"/></svg>Jakou velikost vybrat?</button></div>
+          <div class="pk-sizes" role="radiogroup" aria-label="Velikost">
+            <button class="pk-size" type="button" role="radio" data-value="62-80" data-label="62–80 cm"><b>62–80 cm</b><span>zhruba 3–15 měsíců</span></button>
+            <button class="pk-size" type="button" role="radio" data-value="80-98" data-label="80–98 cm"><b>80–98 cm</b><span>zhruba 12–30 měsíců</span></button>
+          </div>
+        </div>
+
+        <div class="pk-opt">
+          <div class="pk-opt-head"><b>Balení</b></div>
+          <div class="pk-bundles" role="radiogroup" aria-label="Balení">
+            <button class="pk-bundle is-active" type="button" role="radio" aria-checked="true" data-bundle="one">
+              <span class="pk-bundle-dot"></span>
+              <span class="pk-bundle-img"><img src="assets/fotky/pack-grey-thumb.webp" alt="" loading="lazy"></span>
+              <span><span class="pk-bundle-t" style="display:block">1 overal</span><span class="pk-bundle-d" style="display:block">Na celý první rok</span></span>
+              <span class="pk-bundle-p">1 890 Kč</span>
+            </button>
+            <button class="pk-bundle" type="button" role="radio" aria-checked="false" data-bundle="duo">
+              <span class="pk-bundle-tag">Nejoblíbenější</span>
+              <span class="pk-bundle-dot"></span>
+              <span class="pk-bundle-img"><img src="assets/fotky/th-duo.webp" alt="" loading="lazy"></span>
+              <span><span class="pk-bundle-t" style="display:block">2 overaly, sleva 10 %</span><span class="pk-bundle-d" style="display:block">Pro sourozence, nebo jeden v pračce</span></span>
+              <span class="pk-bundle-p">3 402 Kč<s>3 780 Kč</s></span>
+            </button>
+            <button class="pk-bundle" type="button" role="radio" aria-checked="false" data-bundle="bonnet">
+              <span class="pk-bundle-tag pk-bundle-tag--lav">Set</span>
+              <span class="pk-bundle-dot"></span>
+              <span class="pk-bundle-img"><img src="assets/fotky/th-bonnet.webp" alt="" loading="lazy"></span>
+              <span><span class="pk-bundle-t" style="display:block">Overal a zaječí čepička</span><span class="pk-bundle-d" style="display:block">Čepička na uvazování k overalu</span></span>
+              <span class="pk-bundle-p">2 290 Kč<s>2 380 Kč</s></span>
+            </button>
+          </div>
+        </div>
+
+        <div class="pk-buy">
+          <div class="pk-qty" aria-label="Množství">
+            <button type="button" data-step="-1" aria-label="Méně"><svg class="pk-ico" style="width:18px;height:18px"><use href="#pk-i-minus"/></svg></button>
+            <output>1</output>
+            <button type="button" data-step="1" aria-label="Více"><svg class="pk-ico" style="width:18px;height:18px"><use href="#pk-i-plus"/></svg></button>
+          </div>
+          <button class="pk-btn pk-add" type="button" data-add>
+            <svg class="pk-ico"><use href="#pk-i-bag"/></svg><span data-add-label>Do košíku za 1 890 Kč</span>
+            <span class="pk-add-ok"><svg class="pk-ico"><use href="#pk-i-check"/></svg>Přidáno do košíku</span>
+          </button>
+        </div>
+        <div class="pk-stock"><i></i>Skladem, odešleme do 2 pracovních dnů</div>
+        <div class="pk-ship"><div class="pk-ship-t"><svg class="pk-ico"><use href="#pk-i-truck"/></svg><span></span></div><div class="pk-ship-bar"><span></span></div></div>
+
+        <ul class="pk-bullets">
+          <li class="pk-bullet"><span class="pk-usp-icon"><svg class="pk-ico"><use href="#pk-i-grow"/></svg></span><span><b>Vydrží zhruba rok</b><span>manžety se ohrnou a rozloží</span></span></li>
+          <li class="pk-bullet"><span class="pk-usp-icon"><svg class="pk-ico"><use href="#pk-i-needle"/></svg></span><span><b>Ušito v Česku</b><span>v malé dílně</span></span></li>
+          <li class="pk-bullet"><span class="pk-usp-icon"><svg class="pk-ico"><use href="#pk-i-zip"/></svg></span><span><b>Šikmý zip</b><span>od krku až k nohavici</span></span></li>
+          <li class="pk-bullet"><span class="pk-usp-icon"><svg class="pk-ico"><use href="#pk-i-hood"/></svg></span><span><b>Kapuce s oušky</b><span>podšitá jemným úpletem</span></span></li>
+        </ul>
+
+        <div class="pk-sum-acc">
+          <div class="pk-acc pk-acc--compact"><button class="pk-acc-btn" type="button" aria-expanded="false">Popis a střih<span class="pk-acc-ico"></span></button>
+            <div class="pk-acc-panel"><div><ul><li><i class="pk-wdot"></i>Dlouhé žebrované manžety na rukávech i nohavicích, které se ohrnují.</li><li><i class="pk-wdot--sand"></i>Šikmý zip od krku až k nohavici, oblékání i přebalování je rychlé.</li><li><i class="pk-wdot--sage"></i>Kapuce s oušky (zajíček nebo medvídek), podšitá jemným úpletem.</li><li><i class="pk-wdot--lav"></i>Volnější střih v sedu, aby se dalo lézt i sedět.</li></ul></div></div></div>
+          <div class="pk-acc pk-acc--compact"><button class="pk-acc-btn" type="button" aria-expanded="false">Materiál a péče<span class="pk-acc-ico"></span></button>
+            <div class="pk-acc-panel"><div><p>Teplákovina, kapuce podšitá jemným úpletem. Přesné složení doplníme. Perte na 30 °C naruby se zapnutým zipem, nesušte v sušičce.</p></div></div></div>
+          <div class="pk-acc pk-acc--compact"><button class="pk-acc-btn" type="button" aria-expanded="false">Doprava a vrácení<span class="pk-acc-ico"></span></button>
+            <div class="pk-acc-panel"><div><p>Odesíláme do 2 pracovních dnů přes Zásilkovnu nebo PPL. Doprava zdarma od 2 500 Kč. Do 30 dní můžete overal vrátit nebo vyměnit za jinou velikost.</p></div></div></div>
+        </div>
+        <div class="pk-pay"><svg class="pk-ico"><use href="#pk-i-lock"/></svg>Bezpečná platba kartou, Apple Pay, Google Pay nebo převodem</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JAK OVERAL ROSTE – porovnání skutečných fotek -->
+  <section class="pk-sec" id="jak-roste" aria-labelledby="pk-grow-h">
+    <div class="pk-grow" data-grow-photo>
+      <div class="pk-grow-copy">
+        <h2 class="pk-h2" id="pk-grow-h">Jeden overal.<br>Celý rok.</h2>
+        <p class="pk-lead">Rukávy i nohavice mají dlouhé žebrované manžety. Dokud je dítě malé, nosí je ohrnuté. Jak roste, manžety rozložíte a overal sedí dál.</p>
+        <ol class="pk-steps pk-steps--open">
+          <li><button class="pk-step" type="button" data-pos="100" aria-pressed="false">
+            <span class="pk-step-n">1</span>
+            <span><span class="pk-step-t">Manžety ohrnuté</span>
+            <span class="pk-step-d"><p>Pro menší miminko. Manžety přes ručičky a nožičky hřejí a nic nepřečuhuje.</p></span></span>
+          </button></li>
+          <li><button class="pk-step" type="button" data-pos="50" aria-pressed="false">
+            <span class="pk-step-n">2</span>
+            <span><span class="pk-step-t">Napůl rozložené</span>
+            <span class="pk-step-d"><p>Jak dítě roste, ohrnutí postupně povolujete. Střih zůstává stejný.</p></span></span>
+          </button></li>
+          <li><button class="pk-step" type="button" data-pos="0" aria-pressed="false">
+            <span class="pk-step-n">3</span>
+            <span><span class="pk-step-t">Manžety rozložené</span>
+            <span class="pk-step-d"><p>Plná délka. Ten samý overal teď nosí malý chodec.</p></span></span>
+          </button></li>
+        </ol>
+      </div>
+
+      <div class="pk-grow-visual">
+        <div class="pk-cmpph" data-compare>
+          <div class="pk-cmp-tabs" role="tablist" aria-label="Co porovnat">
+            <button class="pk-cmp-tab is-active" type="button" role="tab" aria-selected="true" data-a="assets/fotky/cmp-full-a.webp" data-b="assets/fotky/cmp-full-b.webp">Celý overal</button>
+            <button class="pk-cmp-tab" type="button" role="tab" aria-selected="false" data-a="assets/fotky/cmp-sleeve-a.webp" data-b="assets/fotky/cmp-sleeve-b.webp">Rukáv</button>
+            <button class="pk-cmp-tab" type="button" role="tab" aria-selected="false" data-a="assets/fotky/cmp-legs-a.webp" data-b="assets/fotky/cmp-legs-b.webp">Nohavice</button>
+          </div>
+          <div class="pk-cmp-stage">
+            <img class="pk-cmp-after" src="assets/fotky/cmp-full-b.webp" alt="Overal s rozloženými manžetami">
+            <img class="pk-cmp-before" src="assets/fotky/cmp-full-a.webp" alt="Overal s ohrnutými manžetami">
+            <span class="pk-cmp-line"><span class="pk-cmp-knob"></span></span>
+            <span class="pk-cmp-tag pk-cmp-tag--l">Ohrnuto</span>
+            <span class="pk-cmp-tag pk-cmp-tag--r">Rozloženo</span>
+            <input class="pk-cmp-range" type="range" min="0" max="100" value="50" aria-label="Porovnat ohrnuté a rozložené manžety">
+          </div>
+          <p class="pk-range-hint"><svg class="pk-ico" style="width:16px;height:16px"><use href="#pk-i-touch"/></svg>Táhněte a porovnejte</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- DETAILY -->
+  <section class="pk-sec" aria-labelledby="pk-det-h" style="padding-top:0">
+    <div class="pk-wrap">
+      <h2 class="pk-h2" id="pk-det-h">Detaily, které oceníte<br>ve tři ráno</h2>
+      <div class="pk-details">
+        <div class="pk-detail">
+          <div class="pk-ph" data-tone="oat" data-reveal><img src="assets/fotky/det-zip.webp" alt="Zip až k nohavici" loading="lazy"></div>
+          <div class="pk-detail-t"><span class="pk-usp-icon"><svg class="pk-ico"><use href="#pk-i-zip"/></svg></span><h3 class="pk-h3">Zip až k nohavici</h3></div>
+          <p class="pk-body">Šikmý zip jde přes celou délku, overal rozepnete jedním tahem a dítě nemusíte celé svlékat.</p>
+        </div>
+        <div class="pk-detail">
+          <div class="pk-ph" data-tone="oat" data-reveal><img src="assets/fotky/det-hood.webp" alt="Kapuce s oušky" loading="lazy"></div>
+          <div class="pk-detail-t"><span class="pk-usp-icon"><svg class="pk-ico"><use href="#pk-i-hood"/></svg></span><h3 class="pk-h3">Kapuce s oušky</h3></div>
+          <p class="pk-body">Podšitá jemným úpletem, drží na hlavě a ouška udělají radost každému, kdo se podívá.</p>
+        </div>
+        <div class="pk-detail">
+          <div class="pk-ph" data-tone="oat" data-reveal><img src="assets/fotky/det-cuff.webp" alt="Manžety, které rostou" loading="lazy"></div>
+          <div class="pk-detail-t"><span class="pk-usp-icon"><svg class="pk-ico"><use href="#pk-i-cuff"/></svg></span><h3 class="pk-h3">Manžety, které rostou</h3></div>
+          <p class="pk-body">Pevný žebrovaný úplet. Ohrnete, když je dítě malé, a rozložíte, až povyroste.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SROVNÁNÍ -->
+  <section class="pk-sec" aria-labelledby="pk-cmp-h" style="padding-top:0">
+    <div class="pk-wrap">
+      <h2 class="pk-h2" id="pk-cmp-h">Jeden overal místo čtyř</h2>
+      <p class="pk-lead" style="margin-top:16px">Miminko za první rok vyroste zhruba o 25 cm. Běžné oblečení to řeší dalším nákupem, POIKKA delší manžetou.</p>
+      <div class="pk-compare">
+        <div class="pk-cmp pk-cmp--old">
+          <div class="pk-cmp-label">Běžné overaly během prvního roku</div>
+          <div class="pk-cmp-figs">
+            <span class="pk-cmp-fig" style="--w:clamp(30px,4vw,48px)"><svg viewBox="0 0 40 58"><use href="#pk-i-overal"/></svg>62</span>
+            <span class="pk-cmp-fig" style="--w:clamp(36px,4.8vw,58px)"><svg viewBox="0 0 40 58"><use href="#pk-i-overal"/></svg>68</span>
+            <span class="pk-cmp-fig" style="--w:clamp(42px,5.6vw,68px)"><svg viewBox="0 0 40 58"><use href="#pk-i-overal"/></svg>74</span>
+            <span class="pk-cmp-fig" style="--w:clamp(48px,6.4vw,78px)"><svg viewBox="0 0 40 58"><use href="#pk-i-overal"/></svg>80</span>
+          </div>
+          <div class="pk-cmp-sum"><span>4 nákupy, 4 kusy ve skříni</span><b>≈ 3 960 Kč</b></div>
+        </div>
+        <div class="pk-cmp pk-cmp--new">
+          <div class="pk-cmp-label">Rostoucí overal POIKKA</div>
+          <div class="pk-cmp-figs">
+            <span class="pk-cmp-fig" style="--w:clamp(84px,9vw,118px)"><svg viewBox="0 0 40 58"><use href="#pk-i-overal"/></svg>jeden na celý rok</span>
+          </div>
+          <div class="pk-cmp-sum"><span>1 nákup</span><b>1 890 Kč</b></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIFESTYLE -->
+  <section class="pk-sec" aria-labelledby="pk-life2-h" data-carousel style="padding-top:0">
+    <div class="pk-wrap pk-carhead">
+      <h2 class="pk-h2" id="pk-life2-h">Jak se v něm žije</h2>
+      <div class="pk-carnav">
+        <button class="pk-arrow" type="button" data-prev aria-label="Předchozí"><svg class="pk-ico"><use href="#pk-i-left"/></svg></button>
+        <button class="pk-arrow" type="button" data-next aria-label="Další"><svg class="pk-ico"><use href="#pk-i-right"/></svg></button>
+      </div>
+    </div>
+    <div class="pk-track pk-life-row">
+      <figure class="pk-life"><div class="pk-ph" data-tone="oat"><img src="assets/fotky/pdp-l1.webp" alt="Holčička v šedém overalu a zaječí čepičce" loading="lazy"></div><figcaption><b>Šedý melír</b><span>se zaječí čepičkou</span></figcaption></figure>
+      <figure class="pk-life"><div class="pk-ph" data-tone="oat"><img src="assets/fotky/pdp-l2.webp" alt="Smějící se miminko v černém overalu" loading="lazy"></div><figcaption><b>Černá</b><span>zajíček</span></figcaption></figure>
+      <figure class="pk-life"><div class="pk-ph" data-tone="oat"><img src="assets/fotky/pdp-l3.webp" alt="Miminko v béžovém overalu na posteli" loading="lazy"></div><figcaption><b>Béžová</b><span>manžety ohrnuté</span></figcaption></figure>
+      <figure class="pk-life"><div class="pk-ph" data-tone="oat"><img src="assets/fotky/life-duo.webp" alt="Dvě děti v overalech" loading="lazy"></div><figcaption><b>Černá a šedý melír</b><span>dva overaly</span></figcaption></figure>
+      <figure class="pk-life"><div class="pk-ph" data-tone="oat"><img src="assets/fotky/pdp-l4.webp" alt="Holčička v šedém overalu" loading="lazy"></div><figcaption><b>Šedý melír</b><span>manžety rozložené</span></figcaption></figure>
+      <figure class="pk-life"><div class="pk-ph" data-tone="oat"><img src="assets/fotky/life-loft.webp" alt="Batole v černém overalu" loading="lazy"></div><figcaption><b>Černá</b><span>zajíček</span></figcaption></figure>
+    </div>
+    <div class="pk-progress"><span></span></div>
+  </section>
+
+  <section class="pk-sec" style="padding-top:0" aria-label="Doporučujeme">
+    <div class="pk-wrap">
+      <div class="pk-cross">
+        <div class="pk-ph" data-tone="oat"><img src="assets/fotky/cross-set.webp" alt="" loading="lazy"></div>
+        <div class="pk-cross-copy">
+          <h2 class="pk-h2" style="font-size:clamp(30px,3.4vw,48px)">Na první týdny: novorozenecký set</h2>
+          <p class="pk-lead">Dupačky s ťapkami a čepička ze stejné látky. Než miminko doroste do overalu.</p>
+          <a class="pk-btn" href="novorozenecky-set.html">Prohlédnout set</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pk-sec" id="recenze" aria-labelledby="pk-rev-ov" style="padding-top:0">
+    <!-- UKÁZKOVÉ RECENZE – před spuštěním nahradit skutečnými nebo napojit plugin recenzí -->
+    <div class="pk-wrap pk-revsum">
+      <div>
+        <h2 class="pk-h2" id="pk-rev-ov">Recenze</h2>
+        <div class="pk-rating">
+          <span class="pk-rating-big">4,9</span>
+          <span><span class="pk-stars"><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg></span><span class="pk-small" style="display:block;color:var(--pk-muted)">48 ověřených recenzí</span></span>
+        </div>
+        <div class="pk-revbars">
+          <div class="pk-revbar"><span>5 ★</span><i style="--v:92%"></i><span>44</span></div>
+          <div class="pk-revbar"><span>4 ★</span><i style="--v:6%"></i><span>3</span></div>
+          <div class="pk-revbar"><span>3 ★</span><i style="--v:2%"></i><span>1</span></div>
+          <div class="pk-revbar"><span>2 ★</span><i style="--v:0%"></i><span>0</span></div>
+          <div class="pk-revbar"><span>1 ★</span><i style="--v:0%"></i><span>0</span></div>
+        </div>
+      </div>
+      <div>
+        <div class="pk-revgrid">
+          <article class="pk-review"><span class="pk-stars"><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg></span>
+            <blockquote>„Nosíme od tří měsíců a pořád sedí. Manžety jsme rozložili teprve minulý týden.“</blockquote>
+            <div class="pk-review-foot"><span class="pk-avatar">T</span><div><div class="pk-review-name">Tereza, Brno</div><div class="pk-review-meta">Šedý melír, zajíček</div></div></div></article>
+          <article class="pk-review"><span class="pk-stars"><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg></span>
+            <blockquote>„Jednoduché, krásně ušité, bez nápisů. Ouška jsou roztomilá, ale ne přeslazená.“</blockquote>
+            <div class="pk-review-foot"><span class="pk-avatar">K</span><div><div class="pk-review-name">Klára, Praha</div><div class="pk-review-meta">Béžová, medvídek</div></div></div></article>
+          <article class="pk-review"><span class="pk-stars"><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg></span>
+            <blockquote>„Zip přes celou nohavici je spása. Přebalování v noci bez svlékání.“</blockquote>
+            <div class="pk-review-foot"><span class="pk-avatar">J</span><div><div class="pk-review-name">Jakub, Liberec</div><div class="pk-review-meta">Černá, zajíček</div></div></div></article>
+          <article class="pk-review"><span class="pk-stars"><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg></span>
+            <blockquote>„Kvalita super, jen bych uvítala ještě jednu barvu. Velikost sedí podle tabulky.“</blockquote>
+            <div class="pk-review-foot"><span class="pk-avatar">M</span><div><div class="pk-review-name">Markéta, Ostrava</div><div class="pk-review-meta">Šedý melír, medvídek</div></div></div></article>
+          <article class="pk-review is-more"><span class="pk-stars"><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg></span>
+            <blockquote>„Koupili jsme dva, pro bráchu a ségru. Vypadají spolu skvěle.“</blockquote>
+            <div class="pk-review-foot"><span class="pk-avatar">P</span><div><div class="pk-review-name">Petra, Olomouc</div><div class="pk-review-meta">2 overaly</div></div></div></article>
+          <article class="pk-review is-more"><span class="pk-stars"><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg><svg class="pk-ico pk-ico--fill"><use href="#pk-i-star"/></svg></span>
+            <blockquote>„Látka je měkká a po praní pořád jako nová.“</blockquote>
+            <div class="pk-review-foot"><span class="pk-avatar">L</span><div><div class="pk-review-name">Lucie, Plzeň</div><div class="pk-review-meta">Béžová, zajíček</div></div></div></article>
+        </div>
+        <button class="pk-btn pk-btn--ghost pk-revmore" type="button" data-rev-more>Zobrazit další recenze</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRŮVODCE VELIKOSTÍ (šuplík) -->
+  <aside class="pk-drawer" id="pk-sizes" aria-hidden="true" aria-label="Průvodce velikostí">
+    <div class="pk-drawer-head"><h3>Jakou velikost vybrat?</h3><button class="pk-iconbtn" type="button" data-close aria-label="Zavřít"><svg class="pk-ico"><use href="#pk-i-close"/></svg></button></div>
+    <div class="pk-drawer-body">
+      <p class="pk-body">Overal vybírejte podle výšky dítěte. Manžety nastavíte ohrnutím, takže jedna velikost pokryje mnoho měsíců.</p>
+      <div class="pk-calc" data-calc>
+        <label for="pk-calc-in">Kolik měří vaše dítě?</label>
+        <div class="pk-calc-row"><input id="pk-calc-in" type="number" inputmode="numeric" placeholder="např. 64 cm" min="40" max="120"><button class="pk-btn" type="button">Doporučit</button></div>
+        <div class="pk-calc-out" aria-live="polite"></div>
+      </div>
+      <div class="pk-stage" data-grow>
+        <div class="pk-readout" aria-live="polite">
+          <div class="pk-readout-cm"><span data-cm>62</span><small>cm</small></div>
+          <div class="pk-readout-age" data-age>zhruba 3 měsíce</div>
+          <div class="pk-readout-fold"><svg class="pk-ico" style="width:16px;height:16px"><use href="#pk-i-cuff"/></svg><span data-fold>Manžety 2× ohrnuté</span></div>
+        </div>
+        <svg class="pk-stage-svg" viewBox="0 0 360 470" role="img" aria-label="Schéma: jak overal sedí podle výšky dítěte"></svg>
+        <div class="pk-range-wrap">
+          <label class="pk-sr" for="pk-size-range">Výška dítěte</label>
+          <input class="pk-range" id="pk-size-range" type="range" min="0" max="300" value="0">
+          <div class="pk-range-labels"><span>62 cm</span><span>68</span><span>74</span><span>80 cm</span></div>
+        </div>
+      </div>
+      <table class="pk-table">
+        <thead><tr><th>Výška dítěte</th><th>Věk zhruba</th><th>Velikost</th><th>Manžety</th></tr></thead>
+        <tbody>
+          <tr><td>do 62 cm</td><td>0–3 m</td><td>62–80</td><td>2× ohrnuté</td></tr>
+          <tr><td>63–68 cm</td><td>3–6 m</td><td>62–80</td><td>1× ohrnuté</td></tr>
+          <tr><td>69–76 cm</td><td>6–12 m</td><td>62–80</td><td>rozložené</td></tr>
+          <tr><td>77–86 cm</td><td>12–18 m</td><td>80–98</td><td>2× ohrnuté</td></tr>
+          <tr><td>87–98 cm</td><td>18–30 m</td><td>80–98</td><td>rozložené</td></tr>
+        </tbody>
+      </table>
+      <p class="pk-small" style="color:var(--pk-muted);margin-top:16px">Tabulka je orientační. Pokud si nejste jistí, napište nám na ahoj@poikka.cz.</p>
+    </div>
+  </aside>
+
+  <div class="pk-stickybar" role="region" aria-label="Rychlý nákup">
+    <span class="pk-ph pk-ph--pack" data-sb-thumb><img src="assets/fotky/pack-grey-thumb.webp" alt=""></span>
+    <div class="pk-sb-info"><div class="pk-sb-name">Rostoucí overal s oušky</div><div class="pk-sb-var" data-sb-var></div></div>
+    <button class="pk-btn pk-add" type="button" data-add><span data-add-label>Do košíku</span><span class="pk-add-ok"><svg class="pk-ico"><use href="#pk-i-check"/></svg>Přidáno</span></button>
+  </div>
+</div>
+<!-- ===== /PRODUKTOVÁ STRÁNKA – OVERAL ===== -->
+<!-- ===== POIKKA: PATIČKA ===== -->
+<div class="pk">
+  <footer class="pk-footer">
+    <div class="pk-wrap pk-foot-grid">
+      <div class="pk-foot-brand">
+        <img src="assets/logo/poikka-miminko.webp" alt="POIKKA">
+        <p>Dětské oblečení ušité v Česku, inspirované Severem a navržené tak, aby rostlo s dítětem.</p>
+        <div class="pk-social">
+          <a href="https://www.instagram.com/" aria-label="Instagram"><svg class="pk-ico"><use href="#pk-i-ig"/></svg></a>
+          <a href="https://www.facebook.com/" aria-label="Facebook"><svg class="pk-ico"><use href="#pk-i-fb"/></svg></a>
+        </div>
+      </div>
+      <div class="pk-foot-col">
+        <h4>Obchod</h4>
+        <a href="rostouci-overal.html">Rostoucí overal</a>
+        <a href="novorozenecky-set.html">Novorozenecký set</a>
+        <a href="index.html#obchod">Všechny produkty</a>
+      </div>
+      <div class="pk-foot-col">
+        <h4>Nakupování</h4>
+        <a href="info.html#doprava">Doprava a platba</a>
+        <a href="info.html#vraceni">Vrácení a výměna</a>
+        <a href="info.html#velikosti">Tabulka velikostí</a>
+        <a href="info.html#podminky">Obchodní podmínky</a>
+      </div>
+      <div class="pk-foot-col">
+        <h4>POIKKA</h4>
+        <a href="index.html#pribeh">Náš příběh</a>
+        <a href="index.html#jak-roste">Jak overal roste</a>
+        <a href="mailto:ahoj@poikka.cz">ahoj@poikka.cz</a>
+      </div>
+    </div>
+    <div class="pk-foot-word" aria-hidden="true"><img src="assets/logo/poikka-napis-velky.webp" alt="" loading="lazy"></div>
+    <div class="pk-foot-bar">
+      <div class="pk-wrap" style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;width:100%">
+        <span>© 2026 POIKKA. Ušito v Česku.</span>
+        <span><a href="info.html#soukromi">Ochrana osobních údajů</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- sdílené vrstvy -->
+  <div class="pk-scrim"></div>
+  <div class="pk-toast" role="status" aria-live="polite"><i class="pk-wdot"></i><span></span></div>
+</div>
+<!-- ===== /PATIČKA ===== -->
+<!-- NÁHLED: košík (ve WordPressu nahradí WooCommerce košík) -->
+<div class="pk">
+  <aside class="pk-drawer" id="pk-cart" aria-hidden="true" aria-label="Košík">
+    <div class="pk-drawer-head"><h3>Košík</h3><button class="pk-iconbtn" type="button" data-close aria-label="Zavřít"><svg class="pk-ico"><use href="#pk-i-close"/></svg></button></div>
+    <div class="pk-drawer-body"></div>
+    <div class="pk-drawer-foot">
+      <div class="pk-ship"><div class="pk-ship-t"><svg class="pk-ico"><use href="#pk-i-truck"/></svg><span></span></div><div class="pk-ship-bar"><span></span></div></div>
+      <div class="pk-cart-total"><span>Celkem</span><span data-cart-total>0 Kč</span></div>
+      <a class="pk-btn pk-btn--block" href="#" data-preview-checkout>Pokračovat k pokladně</a>
+      <button class="pk-btn pk-btn--ghost pk-btn--block" type="button" data-close>Nakupovat dál</button>
+      <p class="pk-small" style="text-align:center;color:var(--pk-muted)">Náhled webu, objednávky zatím nejdou. <button type="button" class="pk-opt-link" data-cart-clear>Vyprázdnit košík</button></p>
+    </div>
+  </aside>
+</div>
+
+<script>window.POIKKA_PREVIEW=true;</script>
+<script src="assets/poikka.js"></script>
+</body></html>

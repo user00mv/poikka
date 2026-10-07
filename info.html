@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="cs"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Doprava, vrácení a velikosti – POIKKA</title>
+<meta name="description" content="Vše o nákupu v e-shopu POIKKA.">
+<meta property="og:title" content="Doprava, vrácení a velikosti – POIKKA"><meta property="og:description" content="Vše o nákupu v e-shopu POIKKA."><meta property="og:image" content="assets/fotky/hero-main.webp">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#FAF7F2">
+<link rel="icon" type="image/png" href="assets/logo/poikka-favicon.png">
+<link rel="preload" href="assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/poikka.css">
+<style>html,body{margin:0;background:#FAF7F2}</style>
+</head><body>
+<svg width="0" height="0" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true">
+  <defs>
+    <symbol id="pk-i-menu" viewBox="0 0 24 24"><path d="M4 9h16M4 15h11"/></symbol>
+    <symbol id="pk-i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="pk-i-bag" viewBox="0 0 24 24"><path d="M5.5 8.5h13l-1.1 11.2a1.5 1.5 0 0 1-1.5 1.3H8.1a1.5 1.5 0 0 1-1.5-1.3L5.5 8.5z"/><path d="M9 10.5V7a3 3 0 0 1 6 0v3.5"/></symbol>
+    <symbol id="pk-i-user" viewBox="0 0 24 24"><circle cx="12" cy="8.5" r="3.6"/><path d="M4.8 20c1.3-3.6 4-5.2 7.2-5.2s5.9 1.6 7.2 5.2"/></symbol>
+    <symbol id="pk-i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.3"/><path d="M20 20l-4.4-4.4"/></symbol>
+    <symbol id="pk-i-left" viewBox="0 0 24 24"><path d="M14.5 6l-6 6 6 6"/></symbol>
+    <symbol id="pk-i-right" viewBox="0 0 24 24"><path d="M9.5 6l6 6-6 6"/></symbol>
+    <symbol id="pk-i-plus" viewBox="0 0 24 24"><path d="M12 6v12M6 12h12"/></symbol>
+    <symbol id="pk-i-minus" viewBox="0 0 24 24"><path d="M6 12h12"/></symbol>
+    <symbol id="pk-i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.4 4.4L19 7.3"/></symbol>
+    <symbol id="pk-i-star" viewBox="0 0 24 24"><path d="M12 3.2l2.6 5.6 6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6-4.5-4.2 6.1-.7z"/></symbol>
+    <symbol id="pk-i-needle" viewBox="0 0 24 24"><path d="M4 20L17.2 6.8"/><ellipse cx="18.4" cy="5.6" rx="1.9" ry="1.1" transform="rotate(-45 18.4 5.6)"/><path d="M18.6 5.5c3 2.6.4 6.2-3 6.6-2.9.4-5.4 2.3-4.7 5.6"/></symbol>
+    <symbol id="pk-i-grow" viewBox="0 0 24 24"><path d="M6 3v18M6 6h3M6 10h2M6 14h3M6 18h2"/><path d="M16.5 20V5M13 8.5l3.5-3.5L20 8.5"/></symbol>
+    <symbol id="pk-i-leaf" viewBox="0 0 24 24"><path d="M5 19c0-8.3 5.4-14 14.5-14 0 9.1-5.7 14.5-14 14.5z"/><path d="M5 19.5l8.5-8.5"/></symbol>
+    <symbol id="pk-i-truck" viewBox="0 0 24 24"><path d="M2.8 6.5h11v9.5h-11zM13.8 10h4.1l3.3 3.3V16h-7.4"/><circle cx="7" cy="17.6" r="1.9"/><circle cx="17.2" cy="17.6" r="1.9"/></symbol>
+    <symbol id="pk-i-return" viewBox="0 0 24 24"><path d="M4 4.5v5h5"/><path d="M4.6 9.3A8 8 0 1 1 5.5 16.8"/></symbol>
+    <symbol id="pk-i-snap" viewBox="0 0 24 24"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2.4"/></symbol>
+    <symbol id="pk-i-cuff" viewBox="0 0 24 24"><path d="M7 3.5h10v6.5H7z"/><path d="M6 10h12v5H6zM6.6 15h10.8v5.5H6.6z"/><path d="M9 12.5h6"/></symbol>
+    <symbol id="pk-i-wash" viewBox="0 0 24 24"><path d="M3 7.5h18l-2.2 11.2a1.6 1.6 0 0 1-1.6 1.3H6.8a1.6 1.6 0 0 1-1.6-1.3L3 7.5z"/><path d="M3.4 9.6c2 1.6 3.8 1.6 5.7 0s3.8-1.6 5.8 0 3.8 1.6 5.7 0"/><path d="M10.3 13.8h3.4"/></symbol>
+    <symbol id="pk-i-gift" viewBox="0 0 24 24"><path d="M4.5 11h15v9.5h-15zM3.5 7.5h17V11h-17zM12 7.5v13"/><path d="M12 7.5C10.4 4 6.5 4 6.8 6.3 7 7.4 9 7.5 12 7.5zM12 7.5c1.6-3.5 5.5-3.5 5.2-1.2-.2 1.1-2.2 1.2-5.2 1.2z"/></symbol>
+    <symbol id="pk-i-zip" viewBox="0 0 24 24"><path d="M12 2.5v11.5M9.8 5h4.4M9.8 8h4.4M9.8 11h4.4"/><rect x="10" y="14" width="4" height="6.5" rx="2"/></symbol>
+    <symbol id="pk-i-hood" viewBox="0 0 24 24"><path d="M12 2.8c3.4.4 7 4.6 7 9.3 0 4.6-3 7.6-7 7.6s-7-3-7-7.6c0-4.7 3.6-8.9 7-9.3z"/><ellipse cx="12" cy="12.8" rx="3.9" ry="3.7"/></symbol>
+    <symbol id="pk-i-camera" viewBox="0 0 24 24"><path d="M4 8h3.6L9.2 6h5.6l1.6 2H20v11H4z"/><circle cx="12" cy="13.3" r="3.3"/></symbol>
+    <symbol id="pk-i-lock" viewBox="0 0 24 24"><rect x="5.5" y="10.5" width="13" height="9.5" rx="2"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"/></symbol>
+    <symbol id="pk-i-box" viewBox="0 0 24 24"><path d="M4 7.8l8-4 8 4v8.6l-8 4-8-4z"/><path d="M4 7.8l8 4 8-4M12 11.8v8.6"/></symbol>
+    <symbol id="pk-i-ruler" viewBox="0 0 24 24"><path d="M3.5 15.5L15.5 3.5l5 5-12 12z"/><path d="M7.5 11.5l1.8 1.8M10.5 8.5l1.8 1.8M13.5 5.5l1.8 1.8"/></symbol>
+    <symbol id="pk-i-heart" viewBox="0 0 24 24"><path d="M12 19.5s-7.5-4.4-7.5-10A4.2 4.2 0 0 1 12 7a4.2 4.2 0 0 1 7.5 2.5c0 5.6-7.5 10-7.5 10z"/></symbol>
+    <symbol id="pk-i-ig" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="5"/><circle cx="12" cy="12" r="3.7"/><circle cx="17" cy="7" r=".6" fill="currentColor"/></symbol>
+    <symbol id="pk-i-fb" viewBox="0 0 24 24"><path d="M14.5 8.5H16V5.6h-2c-2.3 0-3.5 1.4-3.5 3.6v1.7H8.5v2.9h2V20h3v-6.2h2.1l.4-2.9h-2.5V9.6c0-.7.3-1.1 1-1.1z"/></symbol>
+    <symbol id="pk-i-touch" viewBox="0 0 24 24"><path d="M9 11V5.5a1.5 1.5 0 0 1 3 0V11m0-1.5a1.5 1.5 0 0 1 3 0V12m0-1a1.5 1.5 0 0 1 3 0v3.5c0 3.6-2.4 6-5.6 6-2.4 0-3.6-1-5-3l-2-3a1.5 1.5 0 0 1 2.4-1.8L9 14"/></symbol>
+    <symbol id="pk-i-flower" viewBox="0 0 24 24"><g fill="currentColor"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="4.6" r="3.2"/><circle cx="17.2" cy="6.8" r="3.2"/><circle cx="19.4" cy="12" r="3.2"/><circle cx="17.2" cy="17.2" r="3.2"/><circle cx="12" cy="19.4" r="3.2"/><circle cx="6.8" cy="17.2" r="3.2"/><circle cx="4.6" cy="12" r="3.2"/><circle cx="6.8" cy="6.8" r="3.2"/></g></symbol>
+    <symbol id="pk-i-overal" viewBox="0 0 40 58"><path fill="currentColor" stroke="#2E2721" stroke-width="1.8" stroke-linejoin="round" d="M20 2.5c4.6.4 9.6 5.2 9.6 11 0 3-1.2 5.3-3 6.7l3.4 1.6 7 11.6-4.6 2.9-4.4-6.6V40l1.1 15.5H20.9L20 44l-.9 11.5h-8.2L12 40v-10.3l-4.4 6.6L3 33.4l7-11.6 3.4-1.6c-1.8-1.4-3-3.7-3-6.7 0-5.8 5-10.6 9.6-11z"/><ellipse cx="20" cy="13.4" rx="5.2" ry="5" fill="#FAF7F2" stroke="#2E2721" stroke-width="1.6"/></symbol>
+  </defs>
+</svg>
+
+<!-- ===== POIKKA: HLAVIČKA (oznámení + menu) ===== -->
+<div class="pk">
+  <div class="pk-headwrap">
+    <div class="pk-announce" aria-label="Novinky">
+      <div class="pk-announce-track">
+        <div class="pk-announce-set">
+          <span>Ušito v Česku<i class="pk-wdot" aria-hidden="true"></i></span>
+          <span>Doprava zdarma od 2 500 Kč<i class="pk-wdot pk-wdot--sand" aria-hidden="true"></i></span>
+          <span>Jeden overal na celý rok<i class="pk-wdot pk-wdot--sage" aria-hidden="true"></i></span>
+          <span>Odesíláme do 2 pracovních dnů<i class="pk-wdot" aria-hidden="true"></i></span>
+          </div>
+        <div class="pk-announce-set" aria-hidden="true">
+          <span>Ušito v Česku<i class="pk-wdot" aria-hidden="true"></i></span>
+          <span>Doprava zdarma od 2 500 Kč<i class="pk-wdot pk-wdot--sand" aria-hidden="true"></i></span>
+          <span>Jeden overal na celý rok<i class="pk-wdot pk-wdot--sage" aria-hidden="true"></i></span>
+          <span>Odesíláme do 2 pracovních dnů<i class="pk-wdot" aria-hidden="true"></i></span>
+          </div>
+      </div>
+    </div>
+    <header class="pk-header">
+      <div class="pk-wrap pk-header-in">
+        <nav class="pk-nav" aria-label="Hlavní menu">
+          <a href="rostouci-overal.html">Rostoucí overal</a>
+          <a href="novorozenecky-set.html">Novorozenecký set</a>
+          <a href="index.html#jak-roste">Jak roste</a>
+          <a href="index.html#pribeh">Náš příběh</a>
+        </nav>
+        <button class="pk-iconbtn pk-burger" type="button" aria-label="Otevřít menu" aria-expanded="false" data-menu-open>
+          <svg class="pk-ico"><use href="#pk-i-menu"/></svg>
+        </button>
+        <a class="pk-logo" href="index.html" aria-label="POIKKA – úvodní stránka">
+          <img src="assets/logo/poikka-napis.webp" alt="POIKKA" width="480" height="83">
+        </a>
+        <div class="pk-actions">
+          <a class="pk-iconbtn pk-hide-m" href="info.html#kontakt" aria-label="Můj účet"><svg class="pk-ico"><use href="#pk-i-user"/></svg></a>
+          <a class="pk-iconbtn" href="#" data-open="pk-cart" aria-label="Košík">
+            <svg class="pk-ico"><use href="#pk-i-bag"/></svg>
+            <span class="pk-cartcount">0</span>
+          </a>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div class="pk-head-spacer" aria-hidden="true"></div>
+
+  <div class="pk-mmenu" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="pk-mmenu-top">
+      <img src="assets/logo/poikka-napis.webp" alt="POIKKA">
+      <button class="pk-iconbtn" type="button" aria-label="Zavřít menu" data-menu-close><svg class="pk-ico"><use href="#pk-i-close"/></svg></button>
+    </div>
+    <nav aria-label="Mobilní menu">
+      <a href="rostouci-overal.html">Rostoucí overal</a>
+      <a href="novorozenecky-set.html">Novorozenecký set</a>
+      <a href="index.html#jak-roste">Jak roste</a>
+      <a href="index.html#pribeh">Náš příběh</a>
+      <a href="info.html#kontakt">Můj účet</a>
+    </nav>
+    <div class="pk-mmenu-foot">
+      <img src="assets/logo/poikka-miminko.webp" alt="">
+      <span>Dětské oblečení ušité v Česku.<br>Napište nám: ahoj@poikka.cz</span>
+    </div>
+  </div>
+</div>
+<!-- ===== /HLAVIČKA ===== -->
+<!-- ===== POIKKA: INFORMACE (náhled – texty jsou pracovní) ===== -->
+<div class="pk">
+  <div class="pk-wrap">
+    <nav class="pk-crumbs" aria-label="Drobečková navigace"><a href="index.html">Domů</a><span>/</span><span aria-current="page">Informace</span></nav>
+  </div>
+
+  <section class="pk-sec" style="padding-top:clamp(24px,4vw,48px)" aria-labelledby="pk-info-h">
+    <div class="pk-wrap pk-faq">
+      <div class="pk-faq-side">
+        <h1 class="pk-h2" id="pk-info-h">Vše o nákupu</h1>
+        <p class="pk-body">Doprava, vrácení, velikosti a podmínky na jednom místě. Texty jsou zatím pracovní a doplníme je před spuštěním.</p>
+        <a class="pk-btn pk-btn--ghost" href="mailto:ahoj@poikka.cz">Napsat nám</a>
+      </div>
+      <div>
+        <div class="pk-acc is-open" id="doprava"><button class="pk-acc-btn" type="button" aria-expanded="true">Doprava a platba<span class="pk-acc-ico"></span></button>
+          <div class="pk-acc-panel"><div>
+            <ul>
+              <li><i class="pk-wdot"></i>Zásilkovna, výdejní místo nebo Z-BOX</li>
+              <li><i class="pk-wdot pk-wdot--sand"></i>PPL, doručení na adresu</li>
+              <li><i class="pk-wdot pk-wdot--sage"></i>Doprava zdarma při nákupu od 2 500 Kč</li>
+              <li><i class="pk-wdot pk-wdot--lav"></i>Platba kartou, Apple Pay, Google Pay nebo převodem</li>
+            </ul>
+            <p>Objednávky odesíláme do 2 pracovních dnů. Ceny dopravy doplníme.</p>
+          </div></div></div>
+        <div class="pk-acc" id="vraceni"><button class="pk-acc-btn" type="button" aria-expanded="false">Vrácení a výměna<span class="pk-acc-ico"></span></button>
+          <div class="pk-acc-panel"><div><p>Do 30 dní od převzetí můžete zboží vrátit nebo vyměnit za jinou velikost. Stačí nám napsat na ahoj@poikka.cz a zboží poslat zpět nenošené a s visačkou.</p></div></div></div>
+        <div class="pk-acc" id="velikosti"><button class="pk-acc-btn" type="button" aria-expanded="false">Tabulka velikostí<span class="pk-acc-ico"></span></button>
+          <div class="pk-acc-panel"><div>
+            <p><b style="color:var(--pk-ink)">Rostoucí overal</b></p>
+            <div style="overflow-x:auto">
+            <table class="pk-table">
+              <thead><tr><th>Výška dítěte</th><th>Věk zhruba</th><th>Velikost</th><th>Manžety</th></tr></thead>
+              <tbody>
+                <tr><td>do 62 cm</td><td>0–3 m</td><td>62–80</td><td>2× ohrnuté</td></tr>
+                <tr><td>63–68 cm</td><td>3–6 m</td><td>62–80</td><td>1× ohrnuté</td></tr>
+                <tr><td>69–76 cm</td><td>6–12 m</td><td>62–80</td><td>rozložené</td></tr>
+                <tr><td>77–86 cm</td><td>12–18 m</td><td>80–98</td><td>2× ohrnuté</td></tr>
+                <tr><td>87–98 cm</td><td>18–30 m</td><td>80–98</td><td>rozložené</td></tr>
+              </tbody>
+            </table>
+            </div>
+            <p style="margin-top:22px"><b style="color:var(--pk-ink)">Novorozenecký set</b></p>
+            <div style="overflow-x:auto">
+            <table class="pk-table">
+              <thead><tr><th>Velikost</th><th>Výška dítěte</th><th>Věk zhruba</th></tr></thead>
+              <tbody>
+                <tr><td>50</td><td>do 50 cm</td><td>do 1 měsíce</td></tr>
+                <tr><td>56</td><td>51–56 cm</td><td>1–2 měsíce</td></tr>
+                <tr><td>62</td><td>57–62 cm</td><td>2–4 měsíce</td></tr>
+                <tr><td>68</td><td>63–68 cm</td><td>4–6 měsíců</td></tr>
+              </tbody>
+            </table>
+            </div>
+          </div></div></div>
+        <div class="pk-acc" id="podminky"><button class="pk-acc-btn" type="button" aria-expanded="false">Obchodní podmínky<span class="pk-acc-ico"></span></button>
+          <div class="pk-acc-panel"><div><p>Obchodní podmínky doplníme před spuštěním e-shopu.</p></div></div></div>
+        <div class="pk-acc" id="soukromi"><button class="pk-acc-btn" type="button" aria-expanded="false">Ochrana osobních údajů<span class="pk-acc-ico"></span></button>
+          <div class="pk-acc-panel"><div><p>Zásady zpracování osobních údajů doplníme před spuštěním e-shopu.</p></div></div></div>
+        <div class="pk-acc" id="kontakt"><button class="pk-acc-btn" type="button" aria-expanded="false">Kontakt<span class="pk-acc-ico"></span></button>
+          <div class="pk-acc-panel"><div><p>E-mail: ahoj@poikka.cz. Odpovídáme do druhého dne.</p></div></div></div>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- ===== /INFORMACE ===== -->
+<!-- ===== POIKKA: PATIČKA ===== -->
+<div class="pk">
+  <footer class="pk-footer">
+    <div class="pk-wrap pk-foot-grid">
+      <div class="pk-foot-brand">
+        <img src="assets/logo/poikka-miminko.webp" alt="POIKKA">
+        <p>Dětské oblečení ušité v Česku, inspirované Severem a navržené tak, aby rostlo s dítětem.</p>
+        <div class="pk-social">
+          <a href="https://www.instagram.com/" aria-label="Instagram"><svg class="pk-ico"><use href="#pk-i-ig"/></svg></a>
+          <a href="https://www.facebook.com/" aria-label="Facebook"><svg class="pk-ico"><use href="#pk-i-fb"/></svg></a>
+        </div>
+      </div>
+      <div class="pk-foot-col">
+        <h4>Obchod</h4>
+        <a href="rostouci-overal.html">Rostoucí overal</a>
+        <a href="novorozenecky-set.html">Novorozenecký set</a>
+        <a href="index.html#obchod">Všechny produkty</a>
+      </div>
+      <div class="pk-foot-col">
+        <h4>Nakupování</h4>
+        <a href="info.html#doprava">Doprava a platba</a>
+        <a href="info.html#vraceni">Vrácení a výměna</a>
+        <a href="info.html#velikosti">Tabulka velikostí</a>
+        <a href="info.html#podminky">Obchodní podmínky</a>
+      </div>
+      <div class="pk-foot-col">
+        <h4>POIKKA</h4>
+        <a href="index.html#pribeh">Náš příběh</a>
+        <a href="index.html#jak-roste">Jak overal roste</a>
+        <a href="mailto:ahoj@poikka.cz">ahoj@poikka.cz</a>
+      </div>
+    </div>
+    <div class="pk-foot-word" aria-hidden="true"><img src="assets/logo/poikka-napis-velky.webp" alt="" loading="lazy"></div>
+    <div class="pk-foot-bar">
+      <div class="pk-wrap" style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;width:100%">
+        <span>© 2026 POIKKA. Ušito v Česku.</span>
+        <span><a href="info.html#soukromi">Ochrana osobních údajů</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- sdílené vrstvy -->
+  <div class="pk-scrim"></div>
+  <div class="pk-toast" role="status" aria-live="polite"><i class="pk-wdot"></i><span></span></div>
+</div>
+<!-- ===== /PATIČKA ===== -->
+<!-- NÁHLED: košík (ve WordPressu nahradí WooCommerce košík) -->
+<div class="pk">
+  <aside class="pk-drawer" id="pk-cart" aria-hidden="true" aria-label="Košík">
+    <div class="pk-drawer-head"><h3>Košík</h3><button class="pk-iconbtn" type="button" data-close aria-label="Zavřít"><svg class="pk-ico"><use href="#pk-i-close"/></svg></button></div>
+    <div class="pk-drawer-body"></div>
+    <div class="pk-drawer-foot">
+      <div class="pk-ship"><div class="pk-ship-t"><svg class="pk-ico"><use href="#pk-i-truck"/></svg><span></span></div><div class="pk-ship-bar"><span></span></div></div>
+      <div class="pk-cart-total"><span>Celkem</span><span data-cart-total>0 Kč</span></div>
+      <a class="pk-btn pk-btn--block" href="#" data-preview-checkout>Pokračovat k pokladně</a>
+      <button class="pk-btn pk-btn--ghost pk-btn--block" type="button" data-close>Nakupovat dál</button>
+      <p class="pk-small" style="text-align:center;color:var(--pk-muted)">Náhled webu, objednávky zatím nejdou. <button type="button" class="pk-opt-link" data-cart-clear>Vyprázdnit košík</button></p>
+    </div>
+  </aside>
+</div>
+
+<script>window.POIKKA_PREVIEW=true;</script>
+<script src="assets/poikka.js"></script>
+</body></html>
